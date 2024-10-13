@@ -17,16 +17,16 @@ profile_pic = current_dir / "assets" / "home" /"profile-pic.png"
 my_zone_pic = current_dir / "assets" / "home" / "my_zone.png"
 
 # ------------ CONSTANTS ----------
-PAGE_TITLE = "Digital CV | Et-tali Mouad"
+PAGE_TITLE = "Digital CV | Elvis Donayre"
 PAGE_ICON = ":wave:"
-NAME = "Et-tali Mouad"
+NAME = "Elvis Donayre"
 DESCRIPTION = """
 Data Scientist @ Aqsone,  I help clients optimize their performance with AI and data.
 """
-EMAIL = "mouad.et-tali@aqsone.com"
+EMAIL = "ejoel.donayrep@gmail.com"
 SOCIAL_MEDIA = {
-    "LinkedIn": "https://www.linkedin.com/in/mouad-et-tali/",
-    "GitHub": "https://github.com/MouadEt-tali"
+    "LinkedIn": "https://www.linkedin.com/in/elvis-donayre-data-scientist-analyst/",
+    "GitHub": "https://github.com/Elvis-Donayre"
 }
 PROJECTS = {
     "🏆 Dimensionality reduction/clustering of data from scientific articles/ wikipedia summaries/news headlines": "https://github.com/MouadEttali/NLP-and-Text_Mining",
