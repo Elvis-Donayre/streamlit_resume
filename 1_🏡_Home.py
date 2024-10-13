@@ -10,7 +10,7 @@ current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 
 css_file = current_dir / "styles" / "main.css"
 
-resume_file = current_dir / "assets" / "cv_mouad.pdf"
+resume_file = current_dir / "assets" / "cv_elvis.pdf"
 
 profile_pic = current_dir / "assets" / "home" /"profile-pic.png"
 
@@ -38,7 +38,7 @@ PROJECTS = {
 st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
 
 
-st.title("Hello There")
+st.title("Bienvenido")
 
 # --------------- HELPER FUNCTIONS -----------------------
 def V_SPACE(lines):
@@ -111,9 +111,9 @@ st.write('\n')
 st.subheader("Hard Skills 🔬")
 st.write(
     """
-- 👩‍💻 Programming: Python, SQL, pySpark
+- 👩‍💻 Programming: Python, R, SQL
 - 🧪 Data science : Machine Learning, Ensemble methods (Bagging, Boosting) / kernel methods (SVM, SPCA), Deep Learning, Natural Language Processing, Optimisation
-- 📊 Data Visulization: PowerBi, Qlicksense, D3js
+- 📊 Data Visulization: PowerBi, Tableau
 - 📚 Transfer Learning: LLMS, CNNs, Transformers ...
 - 🗄️ Databases: Postgres, MongoDB, MySQL (on Premise and Cloud)
 - ☁️ Cloud : AWS (Certified Cloud Practitioner (CLF)), Palantir Foundry
